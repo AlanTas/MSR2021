@@ -1,0 +1,12 @@
+<input type="radio"
+       name="contact-option"
+       id="1"
+       class="with-gap"
+       [(ngModel)]="contact"
+       value="cell"> Cell
+<input type="radio"
+       name="contact-option"
+       id="2"
+       class="with-gap"
+       [(ngModel)]="contact"
+       value="email"> Email
